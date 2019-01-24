@@ -53,12 +53,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        mCalendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-            @Override
-            public void onSelectedDayChange(CalendarView calendarView, int y, int m, int d) {
-
-            }
-        });
+//        mCalendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+//            @Override
+//            public void onSelectedDayChange(CalendarView calendarView, int y, int m, int d) {
+//
+//            }
+//        });
     }
 
     public void addHoras(View view) {
